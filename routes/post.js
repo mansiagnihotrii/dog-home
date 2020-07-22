@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 const mongoose = require('mongoose')
 const Post = mongoose.model("Post")
-const User = mongoose.model("User")
+
 const requireLogin = require('../middleware/requireLogin')
 
 router.get('/allpost',(req, res) => {
@@ -37,7 +37,7 @@ router.post('/createpost',requireLogin,(req, res)=>{
   })
 })
 
-router.get('/mypost',requireLogin,(re, res) => {
+router.get('/mypost',requireLogin,(req, res) => {
   Post.find({author:req.user._id})
   .populate("Posted by: ","_id name")
   .then(mypost => {
