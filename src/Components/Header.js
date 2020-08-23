@@ -12,12 +12,12 @@ const Header = () => {
             <ul className="nav-menu sf-js-enabled sf-arrows">
               <li className="menu-active"><a href="/">Home</a></li>
               <li><a href="./#end">About Us</a></li>
-
+              <li><a href="/adopt">Adopt</a></li>
                 <li><a href="/locate">Locate</a></li>
               <li><a href="/volunteer">Volunteer</a></li>
 
               <li><a href="./#end">Contact</a></li>
-              
+
             </ul>
           </nav>
         </div>

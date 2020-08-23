@@ -54,12 +54,13 @@ const Home = () => {
     					<div className="row">
     						<div className="col-lg-3 col-md-6">
     							<div className="single-process">
+                  <a href="#">
     								<span className="lnr lnr-thumbs-up"></span>
-    								<a href="#">
+    								</a>
     									<h4>
     										Selection
     									</h4>
-    								</a>
+
     								<p>
     									Select any dog(s) according to your location, or needs.
     								</p>
@@ -67,12 +68,13 @@ const Home = () => {
     						</div>
     						<div className="col-lg-3 col-md-6">
     							<div className="single-process">
+                  	<a href="/visit">
     								<span className="lnr lnr-user"></span>
-    								<a href="#">
+    							</a>
     									<h4>
     										Paying A Visit
     									</h4>
-    								</a>
+
     								<p>
     									You can pay a visit to the location or you can request our volunteer to help you visiting your buddy.
     								</p>
@@ -80,12 +82,13 @@ const Home = () => {
     						</div>
     						<div className="col-lg-3 col-md-6">
     							<div className="single-process">
+                  	<a href="/adopt">
     								<span className="lnr lnr-license"></span>
-    								<a href="#">
+                      </a>
     									<h4>
     										Adoption Form Filling
     									</h4>
-    								</a>
+
     								<p>
     									If you think you can have him as your family, please fill the adoption form.
     								</p>
@@ -93,12 +96,13 @@ const Home = () => {
     						</div>
     						<div className="col-lg-3 col-md-6">
     							<div className="single-process">
+                  <a href="/service">
     								<span className="lnr lnr-magic-wand"></span>
-    								<a href="#">
+    								</a>
     									<h4>
     										Welcome your family member
     									</h4>
-    								</a>
+
     								<p>
     									You have a new family member. Treat him with love and provide him vaccinations. Don't worry we can help you with that too !
     								</p>
